@@ -1,0 +1,15 @@
+{
+    "node-module-intellisense.scanBuiltinModules": true,
+    "node-module-intellisense.autoStripExtensions": [
+
+        ".js",
+        ".jsx",
+        ".ts",
+        ".d.ts",
+        ".tsx"
+    ],
+    // Always include all words from the current document.
+    "javascript.suggest.alwaysAllWords": true,
+    // Complete functions with their parameter signature.
+    "javascript.suggest.useCodeSnippetsOnMethodSuggest": true
+}
